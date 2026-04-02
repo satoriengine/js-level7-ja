@@ -1,0 +1,37 @@
+/*
+ワーク06_練習問題
+
+インスタンスが持つデータを使って計算を行い、その結果を「戻り値」として返す練習です。
+
+以下の手順でコードを書いてみましょう。
+
+1. Triangleクラスを定義します。
+2. コンストラクタで base（底辺） と height（高さ） を受け取り、インスタンス変数に代入してください。
+3. getArea() メソッドを作成します。このメソッドは引数を受け取らず、底辺 * 高さ / 2 の計算結果を数値で返してください。
+
+実行結果のように表示する処理を作成してください。
+
+実行結果
+25
+*/
+
+// 以下の部分にクラスを定義してください
+class Triangle {
+    constructor(base, height) {
+        this.base = base; // 底辺
+        this.height = height; // 高さ
+    }
+
+    // 面積を計算して返すメソッド
+    getArea() {
+        // 三角形の面積 = 底辺 * 高さ / 2
+        return (this.base * this.height) / 2;
+    }
+}
+
+// 以下の部分は修正してはいけません
+// 底辺10, 高さ5の三角形を作成
+const myTriangle = new Triangle(10, 5);
+// 面積を取得
+const area = myTriangle.getArea();
+console.log(area); // 25
