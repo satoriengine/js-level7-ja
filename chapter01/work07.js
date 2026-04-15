@@ -15,10 +15,3 @@
 Person { name: 'Alice', age: 16 }
 */
 
-class Person {
-    name = 'Alice';
-    age = 16;
-}
-
-const person = new Person();
-console.log(person);
