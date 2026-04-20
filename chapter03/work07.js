@@ -34,7 +34,3 @@ class Person {
 }
 
 // 以下の部分に処理を作成してください
-const person = new Person();
-// メソッドチェーンで連続設定
-person.setName('Bob').setAge(16);
-console.log(person);
