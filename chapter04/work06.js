@@ -21,24 +21,8 @@ age =>  20
 */
 
 // 以下の部分に処理を作成してください
-class Person {
-    // プライベート変数を宣言
-    #age = 0;
 
-    // setterメソッドで値をチェックして代入
-    set age(value) {
-        if (value < 0) {
-            console.log('error：age cannot be negative value');
-        } else {
-            this.#age = value;
-        }
-    }
 
-    // getterメソッドを定義
-    get age() {
-        return this.#age;
-    }
-}
 
 // 以下の部分は修正してはいけません
 const person = new Person();

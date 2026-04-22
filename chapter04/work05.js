@@ -11,7 +11,6 @@
 4. get name()でgetterメソッドを作成します。
 5. get name()は#nameを戻り値として返します。
 
-
 実行結果のように表示する処理を作成してください。
 
 実行結果
@@ -19,20 +18,8 @@ Alice
 */
 
 // 以下の部分に処理を作成してください
-class Person {
-    // プライベート変数を宣言
-    #name;
 
-    // コンストラクタを作成
-    constructor(name) {
-        this.#name = name;
-    }
 
-    // getterメソッドを定義
-    get name() {
-        return this.#name;
-    }
-}
 
 // 以下の部分は修正してはいけません
 const person = new Person('Alice');
