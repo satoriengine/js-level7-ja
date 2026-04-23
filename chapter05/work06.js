@@ -33,11 +33,8 @@ class Singer {
 }
 
 // 以下の部分に処理を作成してください
-class Idol extends Singer {
-    dance() {
-        console.log(this.name + ' is dancing');
-    }
-}
+
+
 
 //以下の部分は修正してはいけません
 const myIdol = new Idol('Alice');

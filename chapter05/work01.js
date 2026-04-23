@@ -13,14 +13,3 @@ class Animal {
 }
 
 // 子クラスの定義、Animalを継承したDogクラス
-class Dog extends Animal {
-    // 中身は空
-}
-
-// 親クラスのインスタンス生成
-const animal = new Animal('生き物');
-animal.cry();
-
-// 子クラスのインスタンス生成
-const myDog = new Dog('ポチ');
-myDog.cry();

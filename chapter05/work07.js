@@ -28,11 +28,8 @@ class Singer {
 }
 
 // 以下の部分に処理を作成してください
-class RockStar extends Singer {
-    sing() {
-        console.log(this.name + ' is screaming!!');
-    }
-}
+
+
 
 //以下の部分は修正してはいけません
 const star = new RockStar('Bob');
