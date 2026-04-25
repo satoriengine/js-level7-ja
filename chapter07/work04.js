@@ -9,9 +9,7 @@
 2. Carにあるmove()メソッドをオーバーライドしてください。
 3. オーバーライドしたmove()の中では、名前のあとに「(名前) moves by electricity」と出力するようにしてください。
 
-下部の実行コードは修正せず、そのまま実行して期待通りの結果が出るか確認しましょう。
-
-実行結果のように表示する処理を作成してください。
+下部の実行コードは修正せず、実行結果のように表示する処理を作成してください。
 
 実行結果
 Tesla moves by electricity
@@ -29,11 +27,8 @@ class Car {
 }
 
 // 以下の部分に処理を作成してください
-class ElectricCar extends Car {
-    move() {
-        console.log(this.name + ' moves by electricity');
-    }
-}
+
+
 
 //以下の部分は修正してはいけません
 const ec = new ElectricCar('Tesla');

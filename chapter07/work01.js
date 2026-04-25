@@ -17,15 +17,8 @@ Car { name: 'Porsche', color: 'red' }
 */
 
 // 以下の部分に処理を作成してください
-class Car {
-    name;
-    color;
 
-    constructor(name, color) {
-        this.name = name;
-        this.color = color;
-    }
-}
+
 
 // 以下の部分は修正してはいけません
 const car1 = new Car('Tesla', 'white');

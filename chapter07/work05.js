@@ -11,27 +11,15 @@
 4. コンストラクタでインスタンスが作られるたびに Ticket.count を 1 ずつ加算します。
 5. クラスメソッドshowTotalTicket() を作成し、「current ticket num is  (countの値)」と出力するようにしてください。
 
-下部の実行コードは修正せず、そのまま実行して期待通りの結果が出るか確認しましょう。
-
-実行結果のように表示する処理を作成してください。
+下部の実行コードは修正せず、実行結果のように表示する処理を作成してください。
 
 実行結果
 current ticket num is 3
 */
 
 // 以下の部分に処理を作成してください
-class Ticket {
-    static count = 0;
 
-    constructor(name) {
-        this.name = name;
-        Ticket.count++;
-    }
 
-    static showTotalTicket() {
-        console.log('current ticket num is ' + Ticket.count);
-    }
-}
 
 // 以下の部分は修正してはいけません
 // 3個のインスタンス作成
